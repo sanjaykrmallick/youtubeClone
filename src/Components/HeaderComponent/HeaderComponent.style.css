@@ -1,0 +1,48 @@
+.headerBlock article{
+    display: flex;
+    background-color: #fff;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 1px 1px saddlebrown;
+    padding: 0 16px;
+}
+
+/* .headerBlock article>div{
+    flex: 1;
+} */
+/* .logoitem{
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    margin: 0px 16px 0px 0px !important;
+} */
+.logo{
+    display: flex;
+    flex: 1;
+}
+.logo>button{
+    margin: 0px 16px 0px 0px;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    border: none;
+    background: rgb(255, 255, 255);
+}
+.search{
+    flex: 2;
+    display: flex;
+}
+.menuBlock{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+.menuBlock button{
+    background: #fff;
+    width: 110%;
+    height: 40px;
+    border: 1px solid #065fd4;
+}
+

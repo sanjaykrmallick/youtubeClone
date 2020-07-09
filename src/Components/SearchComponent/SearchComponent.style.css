@@ -1,0 +1,14 @@
+form{
+    width: 77%;
+    margin: 0px;
+    border: 1px solid #ccc;
+}
+form input{
+    width: 100%;
+    border: none;
+}
+button{
+    width: 10%;
+    border: 1px solid #d3d3d3;
+    background-color: #f8f8f8;
+}
