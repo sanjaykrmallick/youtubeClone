@@ -3,7 +3,7 @@ import React, { Fragment } from 'react';
 const YoutubeLogo = () => {
     return (
         <Fragment>
-            <div style={{ width: '80px', height: '24px', flex: 'none',margin: '6px 0px 0px 0px'}}>
+            <div style={{ width: '80px', height: '24px', flex: 'none'}}>
 									<svg
 										viewBox='0 0 200 60'
 										preserveAspectRatio='xMidYMid meet'

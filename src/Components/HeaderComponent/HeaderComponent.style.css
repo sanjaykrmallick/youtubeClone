@@ -7,19 +7,13 @@
     box-shadow: 1px 1px 1px 1px saddlebrown;
     padding: 0 16px;
 }
-
-/* .headerBlock article>div{
-    flex: 1;
-} */
-/* .logoitem{
-    width: 40px;
-    height: 40px;
-    padding: 8px;
-    margin: 0px 16px 0px 0px !important;
-} */
 .logo{
     display: flex;
     flex: 1;
+    align-items: center;
+}
+.logo>div{
+    padding: 0 20px;
 }
 .logo>button{
     margin: 0px 16px 0px 0px;
@@ -38,6 +32,11 @@
     display: flex;
     justify-content: flex-end;
     margin-right: 10px;
+    align-items: center;
+}
+.menuBlock>div>a, 
+.logo div a :nth-child(1){
+    color: black;
 }
 .menuBlock button{
     background: #fff;

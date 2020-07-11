@@ -1,0 +1,25 @@
+.videoList{
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.videoBlockImg{
+    flex-basis: 29%;
+}
+.videoBlockImg img{
+    width: 100%;
+}
+
+.videoBlockDescription {
+    flex-basis: 69%;
+}
+
+.videoBlockDescription h1{
+    font-size: 22px;
+}
+.videoBlockDescription span{
+    font-size: 13px;
+    margin: 0px 20px;
+}
